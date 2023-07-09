@@ -1,8 +1,16 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
 
 function About() {
-    return(
-        <h1> This is About </h1>
+    return (
+   <>
+    <div className="about-page-container">
+       <div className="about-page-content">
+         <h1> Little Lemon is the best </h1>
+          <p>Our Mission is to cook the best food. </p>
+       </div>
+      </div>
+    </>
     );
 }
 

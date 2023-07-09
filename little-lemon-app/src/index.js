@@ -11,9 +11,15 @@ function App() {
   return (
    <>
     <BrowserRouter>
+     <header>
+      <Link className="logo" to="/"> Little Lemon </Link>
+      <nav>
+        <Link to="/about"> About</Link> 
+      </nav>
+     </header>
      <Routes>
       <Route path="/" element={<Home />}/>
-      <Route path="/" element={<About />}/>
+      <Route path="/about" element={<About />}/>
      </Routes>
     </BrowserRouter>
    </>
