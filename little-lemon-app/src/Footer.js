@@ -1,9 +1,9 @@
 import './App.css';
 
 function Footer() {
-  return (
-
-  );
+    return(
+        <h1> This is the footer, fool.</h1>
+    );
 }
 
 export default Footer;

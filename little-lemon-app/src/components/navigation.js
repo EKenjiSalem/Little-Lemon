@@ -1,16 +1,16 @@
 import './App.css';
 
-function Nav() {
+function Navigation() {
   return (
     <nav>
       <ul>
         <li><a href="/"> Home </a></li>
         <li><a href="/main"> Main </a></li>
-        <li><a href="/nav"> Nav </a></li>
-        <li><a href="/footer"> Footer </a></li>
+        <li><a href="/contact"> Contact </a></li>
+        <li><a href="/menu"> Menu </a></li>
      </ul>
     </nav>
   );
 }
 
-export default Nav;
+export default Navigation;
