@@ -3,7 +3,7 @@
 }
 
 html {
-  background: tan;
+  background: white;
   padding: 3rem;
 }
 
@@ -12,10 +12,9 @@ h1 {
 }
 
 header {
-  height: 110px;
   display: flex;
   align-items: center;
-  padding-block: 10px;
+
 }
 
 header .logo {
@@ -31,7 +30,7 @@ header a {
   color: #4D4D4D;
   font-weight: 600;
   padding: 5px 20px;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 header a:hover {
@@ -49,3 +48,225 @@ header a:hover {
   line-height: 38px;
 }
 
+.home-title  {
+  padding-top: 5rem;
+  margin-left: 7rem;
+  color: #F4CE14;
+  font-size: 48px;
+}
+
+.home-title-1 {
+  margin-left: 7rem;
+  color: #F4CE14;
+  font-size: 36px;
+}
+
+.mission {
+  margin-left: 7rem;
+  color: white;
+  font-size: 24px;
+}
+
+.home-container {
+  background-color: #495E57;
+  margin: -5rem;
+  margin-top: 2rem;
+}
+
+.home-container p {
+  line-height: 24px;
+}
+
+.home-container a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 7rem;
+  width: 12rem;
+  background-color: #F4CE14;
+  padding-block: .75rem;
+  color: white;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform .1s ease-in-out;
+}
+
+.home-container a:hover {
+  transform: translate(1px, 1px);
+}
+
+.waiter-img {
+  height: 25rem;
+  width: 25rem;
+  border-radius: 2rem;
+  margin-left: 65%;
+  margin-top: -17rem;
+  margin-bottom: 2rem;
+}
+
+
+/* About */
+
+.tables-1 {
+  margin-top: 1rem;
+  margin-left: 10rem;
+  max-width: 75%;
+  border-radius: 1rem;
+}
+
+.about-main-content {
+  color: black;
+  margin-top: 5rem;
+  font-size: 24px;
+  line-height: 2;
+  padding: 2rem;
+}
+
+
+.about-page-content {
+  padding-inline: 23px;
+  color: #161616;
+  margin-bottom: 55px;
+}
+
+.about-page-content h1 {
+  line-height: 38px;
+}
+
+.about-page-content p {
+  line-height: 22px;
+}
+
+.about-page-cta {
+  background-color: #FFCC8D;
+  color: #161616;
+  padding-inline: 32px;
+  padding-bottom: 32px;
+  margin-inline: 27px;
+  border-radius: 5px;
+}
+
+.about-page-cta h2 {
+  margin: 0;
+  padding-block: 37px;
+}
+
+.about-page-cta .link-button {
+  background-color: #161616;
+  color: white;
+  border-radius: 10px;
+}
+
+
+/* Dishes */
+
+.articles .heading {
+  text-decoration: underline;
+  padding-left: 44%;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  margin-top: 5rem;
+  background-color: white;
+}
+
+.articles .articles-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 5rem;
+  margin-top: -2rem;
+  background-color: white;
+}
+
+.articles .articles-container .article-info {
+  width: 25rem;
+  margin: 2rem 1rem;
+  overflow: hidden;
+  border-radius: .5rem;
+  box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+  background-color: #495E57;
+}
+
+.articles .articles-container .article-info img {
+  height: 15rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.articles .articles-container .article-info .article-content {
+  padding: 0 1.5rem;
+}
+
+.articles .article-content .button {
+  display: block;
+  padding: 1rem 2rem;
+  margin-bottom: 2rem ;
+}
+
+
+.articles .articles-container .article-info  .article-content span {
+  color: black;
+  font-size: 1.5rem;
+  display: block;
+  padding: 1rem 0;
+}
+
+
+.articles .articles-container .article-info  .article-content p {
+  font-size: 1.3rem;
+  color: #F4CE14;
+}
+
+
+/* Form */
+
+
+.appointment-heading {
+  text-align: center;
+  font-size: 3rem;
+  color: black;
+  font-weight: bolder;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.appointment {
+  border-radius: 1rem;
+ 
+}
+
+.appointment form {
+  border-radius: .5rem;
+  padding: 2rem;
+  margin: 0 auto;
+  max-width: 50rem;
+  background-color: #495E57;
+}
+
+.appointment form .message {
+  margin-bottom: 2rem;
+  border-radius: .5rem;
+  background-color: var(--blue);
+  padding: 1.2rem 2rem;
+  font-size: 1.7rem;
+  color: var(--white);
+  text-align: center;
+}
+
+.appointment form .signup {
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  border-radius: .5rem;
+  background-color: var(--white);
+  padding: 1.2rem 1.4rem;
+  font-size: 1.7rem;
+  color: var(--black); 
+  text-transform: none;
+}
+
+.appointment form label {
+  font-size: 1.7rem;
+  color: #F4CE14;
+}

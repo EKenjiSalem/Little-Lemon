@@ -1,8 +1,8 @@
 import React from "react";
+import { useState } from 'react';
 import { Link } from "react-router-dom";
 
 function BookingForm() {
-
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [date, setDate] = useState('');
@@ -20,7 +20,7 @@ function BookingForm() {
     setEmail('');
     setDate('');
     setTime('');
-};
+
 
     return (
         <form onSubmit={handleSubmit}>
@@ -52,7 +52,7 @@ function BookingForm() {
         <button type="submit">Book Table</button>
        </form>
     );
-
+}
 export default BookingForm;
 
 
