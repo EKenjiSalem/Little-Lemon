@@ -18,11 +18,9 @@ header {
 }
 
 header .logo {
-  color: black;
   margin-right: auto;
-  text-transform: uppercase;
-  font-weight: 900;
-  font-size: 2rem;
+  margin-top: -1rem;
+
 }
 
 header a {
@@ -31,11 +29,13 @@ header a {
   font-weight: 600;
   padding: 5px 20px;
   font-size: 1.5rem;
+  margin-bottom: -1rem;
 }
 
 header a:hover {
-  color: #161616;
-  text-decoration: underline;
+  color: #F4CE14;
+  transition: 1s;
+
 }
 
 .about-page-content {
@@ -86,14 +86,14 @@ header a:hover {
   background-color: #F4CE14;
   padding-block: .75rem;
   color: white;
-  font-weight: 700;
   border-radius: 5px;
   cursor: pointer;
-  transition: transform .1s ease-in-out;
 }
 
 .home-container a:hover {
-  transform: translate(1px, 1px);
+  background-color: white;
+  color: #F4CE14;
+  transition: 1s;
 }
 
 .waiter-img {
@@ -222,7 +222,7 @@ header a:hover {
 /* Form */
 
 
-.appointment-heading {
+.booking-heading {
   text-align: center;
   font-size: 3rem;
   color: black;
@@ -231,12 +231,29 @@ header a:hover {
   margin-bottom: 2rem;
 }
 
-.appointment {
+.booking {
   border-radius: 1rem;
  
 }
 
-.appointment form {
+.booking-button {
+  background-color: #F4CE14;
+  color: #495E57;
+  padding: 1rem 4rem;
+  border-radius: 1rem;
+ margin-left: 15rem;
+}
+
+.booking-button:hover {
+  background-color: #495E57;
+  color: #F4CE14;
+  padding: 1rem 4rem;
+  border-radius: 1rem;
+  transition: 1s;
+}
+
+
+.booking form {
   border-radius: .5rem;
   padding: 2rem;
   margin: 0 auto;
@@ -244,7 +261,7 @@ header a:hover {
   background-color: #495E57;
 }
 
-.appointment form .message {
+.booking form .message {
   margin-bottom: 2rem;
   border-radius: .5rem;
   background-color: var(--blue);
@@ -254,7 +271,7 @@ header a:hover {
   text-align: center;
 }
 
-.appointment form .signup {
+.booking form .signup {
   width: 100%;
   margin-top: 1rem;
   margin-bottom: 2rem;
@@ -266,7 +283,41 @@ header a:hover {
   text-transform: none;
 }
 
-.appointment form label {
+.booking form label {
   font-size: 1.7rem;
   color: #F4CE14;
 }
+
+.booked-main {
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.confirmation {
+  text-align: center;
+  margin-top: -1rem;
+}
+
+.booked-main {
+  font-size: 36px;
+  margin-top: 2rem;
+}
+
+/* Map */
+
+iframe {
+  margin-left: 23rem;
+  margin-top: 2rem;
+}
+
+.contact-heading {
+  margin-top: 5rem;
+  margin-left: 37rem;
+}
+
+.contact-info{
+  margin-top: 2rem;
+  margin-left: 30rem;
+  font-size: 24px;
+}
+

@@ -3,9 +3,13 @@ import { Link } from "react-router-dom";
 
 function ConfirmedBooking() {
     return (
-   <>
-    <h1> Booking Has Been Confirmed! </h1>
-    </>
+   <div>
+    <h1 className="booked-main"> <br />
+        Thank You for Your Reservation. <br />
+         Your Booking Has Been Confirmed! </h1>
+         <br />
+         <h2 className="confirmation"> Confirmation# #123456789 </h2>
+    </div>
     );
 }
 
